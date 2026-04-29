@@ -33,7 +33,7 @@ const SERVICES = [
   {
     title: "Carports",
     icon: Car,
-    image: "https://i.ibb.co/9knMNHNv/carport-2.jpg",
+    image: "https://i.ibb.co/1GBMGqz1/Residential-carport.jpg",
     description: "Durable and stylish steel carports tailored to protect your vehicles from South Africa's harsh weather.",
   },
   {
@@ -45,19 +45,19 @@ const SERVICES = [
   {
     title: "Shade Netting",
     icon: Warehouse,
-    image: "https://i.ibb.co/fYtwCTfd/Whats-App-Image-2026-04-28-at-19-00-51.jpg",
+    image: "https://i.ibb.co/NnKJggf9/Double-shade-netting.jpg",
     description: "High-quality shade netting structures for residential driveways, commercial parking, and agriculture.",
   },
   {
     title: "Building",
     icon: Hammer,
-    image: "https://i.ibb.co/nsSDgXbC/Whats-App-Image-2026-04-28-at-19-00-46.jpg",
+    image: "https://i.ibb.co/gb1X91kT/Whats-App-Image-2026-04-28-at-19-00-50.jpg",
     description: "General building services including alterations, extensions, and structural improvements with expert care.",
   },
   {
     title: "Paving",
     icon: BrickWall,
-    image: "https://i.ibb.co/HfxyMTF7/Whats-App-Image-2026-04-28-at-19-00-47-2.jpg",
+    image: "https://i.ibb.co/hRfhLF6G/Paving.jpg",
     description: "Professional paving installation for driveways, walkways, and patios using premium materials.",
   },
   {
@@ -69,7 +69,7 @@ const SERVICES = [
   {
     title: "Tiling",
     icon: LayoutGrid,
-    image: "https://i.ibb.co/bgM0xpcV/Tiling-interior.jpg",
+    image: "https://i.ibb.co/CT2kwvq/Tiling.jpg",
     description: "Professional interior and exterior tiling services for a clean, modern look in any space.",
   }
 ];
@@ -102,49 +102,64 @@ const TESTIMONIALS = [
 
 const GALLERY = [
   {
-    img: "https://i.ibb.co/23xq7V1x/Whats-App-Image-2026-04-28-at-19-00-45.jpg",
-    title: "Steel Carport Structure",
+    img: "https://i.ibb.co/49pNrZL/Building-and-the-hero-page-image.jpg",
+    title: "Featured Property Renovation",
     location: "Rosslyn, Pretoria"
   },
   {
-    img: "https://i.ibb.co/NnKJggf9/Whats-App-Image-2026-04-28-at-19-00-45-1.jpg",
-    title: "Double Shade Netting",
+    img: "https://i.ibb.co/1GBMGqz1/Residential-carport.jpg",
+    title: "Residential Carport",
     location: "Pretoria North"
   },
   {
-    img: "https://i.ibb.co/9knMNHNv/carport-2.jpg",
-    title: "Residential Carport",
-    location: "Montana"
-  },
-  {
-    img: "https://i.ibb.co/nsSDgXbC/Whats-App-Image-2026-04-28-at-19-00-46.jpg",
-    title: "Building Construction",
-    location: "Akasia"
-  },
-  {
-    img: "https://i.ibb.co/HfxyMTF7/Whats-App-Image-2026-04-28-at-19-00-47-2.jpg",
-    title: "Paving Project",
-    location: "Silver Lakes"
-  },
-  {
-    img: "https://i.ibb.co/3mzdJHNN/Whats-App-Image-2026-04-28-at-19-00-47-1.jpg",
-    title: "Exterior Painting",
-    location: "The Orchards"
+    img: "https://i.ibb.co/NnKJggf9/Double-shade-netting.jpg",
+    title: "Double Shade Netting",
+    location: "Centurion"
   },
   {
     img: "https://i.ibb.co/ms2wRW4/gates.jpg",
     title: "Custom Security Gate",
+    location: "Akasia"
+  },
+  {
+    img: "https://i.ibb.co/hRfhLF6G/Paving.jpg",
+    title: "Professional Paving",
+    location: "Silver Lakes"
+  },
+  {
+    img: "https://i.ibb.co/CT2kwvq/Tiling.jpg",
+    title: "Modern Tiling",
     location: "Pretoria East"
+  },
+  {
+    img: "https://i.ibb.co/23xq7V1x/Whats-App-Image-2026-04-28-at-19-00-45.jpg",
+    title: "Steel Framework",
+    location: "Montana"
+  },
+  {
+    img: "https://i.ibb.co/nsSDgXbC/Whats-App-Image-2026-04-28-at-19-00-46.jpg",
+    title: "Building Site",
+    location: "Rosslyn"
+  },
+  {
+    img: "https://i.ibb.co/HfxyMTF7/Whats-App-Image-2026-04-28-at-19-00-47-2.jpg",
+    title: "Paving Detail",
+    location: "The Orchards"
+  },
+  {
+    img: "https://i.ibb.co/3mzdJHNN/Whats-App-Image-2026-04-28-at-19-00-47-1.jpg",
+    title: "Painting Finish",
+    location: "Soshanguve"
   },
   {
     img: "https://i.ibb.co/xSzxLrm9/Whats-App-Image-2026-04-28-at-19-00-48-1.jpg",
     title: "Gate Installation",
-    location: "Rosslyn"
+    location: "Mamelodi"
   },
   {
     img: "https://i.ibb.co/Ngmg4sTj/Whats-App-Image-2026-04-28-at-19-00-48.jpg",
-    title: "Property Boundary Wall",
-    location: "Soshanguve"
+    title: "Boundary Fence",
+    location: "Ga-Rankuwa"
   },
   {
     img: "https://i.ibb.co/bgM0xpcV/Tiling-interior.jpg",
@@ -152,39 +167,59 @@ const GALLERY = [
     location: "Pretoria West"
   },
   {
-    img: "https://i.ibb.co/SXPdwBY3/Whats-App-Image-2026-04-28-at-19-00-49.jpg",
-    title: "Entrance Gate Design",
-    location: "Mamelodi"
+    img: "https://i.ibb.co/SXPdwBY3/Steel-carport-structure.jpg",
+    title: "Heavy Duty Carport",
+    location: "Industrial Rosslyn"
   },
   {
     img: "https://i.ibb.co/KpgDDFWV/Whats-App-Image-2026-04-28-at-19-00-50-1.jpg",
-    title: "Driveway Paving",
-    location: "Ga-Rankuwa"
+    title: "Driveway Project",
+    location: "Akasia"
   },
   {
     img: "https://i.ibb.co/gb1X91kT/Whats-App-Image-2026-04-28-at-19-00-50.jpg",
-    title: "Building Extension",
+    title: "Structural Building",
     location: "Waterkloof"
   },
   {
     img: "https://i.ibb.co/fYtwCTfd/Whats-App-Image-2026-04-28-at-19-00-51.jpg",
-    title: "Commercial Shade Net",
+    title: "Commercial Shade",
     location: "Menlo Park"
   },
   {
     img: "https://i.ibb.co/wZndByvm/Whats-App-Image-2026-04-28-at-19-00-52.jpg",
-    title: "Large Scale Carport",
-    location: "Rosslyn Industrial"
+    title: "Large Scale Shade",
+    location: "Rosslyn North"
   },
   {
-    img: "https://i.ibb.co/zWjk6nF6/car-port.jpg",
-    title: "Modern Double Carport",
+    img: "https://i.ibb.co/zWjk6nF6/Shade-netting.jpg",
+    title: "Premium Shade Net",
     location: "Faerie Glen"
   },
   {
     img: "https://i.ibb.co/pv2bxtrs/Whats-App-Image-2026-04-28-at-19-01-56.jpg",
-    title: "Finished Property View",
+    title: "Completed Renovation",
     location: "Centurion"
+  },
+  {
+    img: "https://i.ibb.co/CF6Rnx1/IMG-20260429-WA0008.jpg",
+    title: "Ongoing Construction",
+    location: "Pretoria North"
+  },
+  {
+    img: "https://i.ibb.co/ZR9k8D7r/IMG-20260429-WA0007.jpg",
+    title: "Site Preparation",
+    location: "Rosslyn"
+  },
+  {
+    img: "https://i.ibb.co/TMdD7QjB/IMG-20260429-WA0006.jpg",
+    title: "Material Delivery",
+    location: "Pretoria"
+  },
+  {
+    img: "https://i.ibb.co/9knMNHNv/carport-2.jpg",
+    title: "Modern Carport",
+    location: "Montana"
   }
 ];
 
@@ -285,7 +320,7 @@ export default function App() {
         <div className="absolute inset-0 z-0 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-zinc-900 via-zinc-900/80 to-transparent z-10" />
           <img 
-            src="https://i.ibb.co/zWjk6nF6/car-port.jpg" 
+            src="https://i.ibb.co/49pNrZL/Building-and-the-hero-page-image.jpg" 
             alt="Double Carport Installation" 
             className="w-full h-full object-cover scale-110 blur-[1px]"
           />
