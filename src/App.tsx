@@ -687,8 +687,16 @@ export default function App() {
             </a>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto px-4 mt-12 pt-8 border-t border-white/5 text-center text-zinc-600 text-sm">
-          &copy; {new Date().getFullYear()} GMK Shades Installer (Pty) Ltd. All rights reserved. Rosslyn, Pretoria.
+        <div className="max-w-7xl mx-auto px-4 mt-12 pt-8 border-t border-white/5 text-center flex flex-col md:flex-row justify-between items-center gap-4 text-zinc-600 text-sm">
+          <p>&copy; {new Date().getFullYear()} GMK Shades Installer (Pty) Ltd. All rights reserved. Rosslyn, Pretoria.</p>
+          <a 
+            href="https://www.vibrantws.co.za" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover:text-brand-gold transition-colors"
+          >
+            Website Designed by Vibrant Web Solutions
+          </a>
         </div>
       </footer>
     </div>
